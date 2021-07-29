@@ -4,8 +4,8 @@
  * 
  * Read a serial port on which a smv probes from Simtec AG send data, and print the 
  * decoded data to the terminal.
- * Use a RS485 or RS232 to USB converter. Contact Simtec 
- * for more details or for a preconfigured and assembled cable.
+ * Use a RS485 or RS232 to USB converter. Contact Simtec for more details or for a preconfigured 
+ * and assembled cable.
  * 
  * Compiled and tested with MinGW (gcc)
  * http://sourceforge.net/projects/mingwbuilds/
@@ -28,7 +28,7 @@
 #include <string.h>
 #include <stdint.h>
 
-/**@brief baudrate at which the serial port is read */
+/** @brief Baudrate at which the serial port is read */
 #define BAUDRATE 115200
 
 /** @brief Print the help menu of this decoder */

@@ -49,8 +49,8 @@ typedef enum
  * If the message is not fully decoded yet, SMV_PENDING will be returned.
  * If there was an error decoding the message, SMV_ERROR will be returned.
  *
- * @param[in]   raw_data    Raw 8 bits data received by a smv module
- * @param[out]  angle_data  Decoded angle message received by the smv module
+ * @param[in]   raw_data    Raw 8 bits data received by a smv module.
+ * @param[out]  angle_data  Decoded angle message received by the smv module.
  * 
  * @return Status of the decoder.
  */
